@@ -71,3 +71,4 @@ If something like the following appears, it is a success:
   [  170.607580] vfio-pci 0000:01:00.0: vgaarb: VGA decodes changed: olddecodes=none,decodes=io+mem:owns=none  
   [  170.607741] vfio_pci: add [10de:28e0[ffffffff:ffffffff]] class 0x000000/00000000
 ```
+(被自动翻译软件改成这样，又不好翻译回来，将就看吧)
