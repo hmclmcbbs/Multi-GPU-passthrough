@@ -44,10 +44,10 @@ Search for nvram, write where appropriate:
   ]  
 ```
   
-## 配置虚拟机 (just add the hardware you want to pass through)  
+## Configure virtual machine (just add the hardware you want to pass through)  
 
 
-# 重点步骤  
+# Key steps  
 
 
 1. Put the script in the directory into the directory of your own settings (mine is placed in the $HOME directory)  
@@ -59,9 +59,9 @@ Search for nvram, write where appropriate:
 ```
 4. If you want to have leftovers, you can customize the command and bind these two scripts to facilitate execution.  
 ### So, you can switch graphics cards without restarting, and you can easily connect the graphics card directly to the physical machine or virtual machine  
-# 注意事项  
+# Precautions  
 1. Before the graphics card goes directly to the virtual machine, run nvidia-smi, lsof /dev/nvidia*, check whether there is a process residue, if there is, remember to kill it to prevent the system from getting stuck.  
-2. Before doing everything, run sudo lsof -n -w /dev/nvidia* to change all the services displayed into the two scripts in the directory to make sure the scripts are working properly.  
+2. Before doing everything, run "" sudo lsof -n -w /dev/nvidia* "" to change all the services displayed into the two scripts in the directory to make sure the scripts are working properly.  
 3. After executing the script, you can check whether the graphics card is handed over to VFIO through the following command:
 ```
   sudo dmesg | grep -i vfio
