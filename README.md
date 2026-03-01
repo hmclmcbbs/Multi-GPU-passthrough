@@ -31,9 +31,13 @@ Search for nvram, write where appropriate:
   nvram = [  
   	"/usr/share/ovmf/x64/OVMF_CODE.fd:/usr/share/ovmf/x64/OVMF_VARS.fd"  
   ]  
+
+  
 ##配置虚拟机 (just add the hardware you want to pass through)  
 
+
 #重点步骤  
+
 
 1. Put the script in the directory into the directory of your own settings (mine is placed in the $HOME directory)  
 2. Create a new systemd system-level service to boot up and execute dgpu-disconnect.sh scripts  
