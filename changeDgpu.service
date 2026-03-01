@@ -1,0 +1,9 @@
+[Unit]
+Description=OpenDgpu
+
+[Service]
+ExecStart=/home/folk15305/dgpu-connect.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
