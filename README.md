@@ -71,4 +71,7 @@ If something like the following appears, it is a success:
   [  170.607580] vfio-pci 0000:01:00.0: vgaarb: VGA decodes changed: olddecodes=none,decodes=io+mem:owns=none  
   [  170.607741] vfio_pci: add [10de:28e0[ffffffff:ffffffff]] class 0x000000/00000000
 ```
+感谢  
+[Vconet](https://blog.vconet.top/archives/nvidia-kvm-passthrough/#%E9%87%8D%E6%96%B0%E5%90%AF%E7%94%A8-NVIDIA-%E6%98%BE%E5%8D%A1)  
+[Shorin](https://github.com/SHORiN-KiWATA/Shorin-ArchLinux-Guide)
 (被自动翻译软件改成这样，又不好翻译回来，将就看吧)
